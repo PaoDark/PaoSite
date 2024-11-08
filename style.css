@@ -1,0 +1,67 @@
+body {
+    color: black;
+    background: lightyellow;
+    margin: 2px;
+    font-family: "Poppins", sans-serif;
+
+    margin-bottom: 100px
+}
+
+.margemdovideo {
+    margin-left:20px
+}
+
+header {
+    border-bottom: solid 1px #b2b9b4;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb()
+}
+
+.chamada {
+    background: #fffc76;
+    padding-bottom: 80;
+    padding-top: 80;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%px
+}
+
+h1 {
+    font-size: 35px;
+}
+
+img {
+
+    height: 230px
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.9;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px green
+}
+
+.categoria h2 {
+color: black;
+
+}
